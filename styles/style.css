@@ -240,18 +240,30 @@
 
   .grid__title-left {
     grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
   }
 
   .text-block__grid-tl {
     grid-column: 2/-1;
+    /*row-gap: 0px;*/
+    /*column-gap: 10px;*/
   }
 
   .grid__title-left .section__title {
     grid-row: 1/3;
   }
 
-  .grid__title-up .section__title{
+  .grid__title-up .section__title {
     width: min-content;
+  }
+
+  .grid__title-left-advices {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+  }
+
+  .grid__title-left-advices .section__title {
+    grid-row: 1/3;
   }
 
   .image__gallery {
