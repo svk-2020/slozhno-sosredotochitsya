@@ -1,0 +1,18 @@
+/*
+  Специально для тёмной темы при наличии класса,
+  здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
+.page.theme_dark {
+  --bg-image: url(../images/cover-image-dark.png);
+
+  --color-bg: #000028;
+  --color-text: #f1b2ce;
+  --color-text-title: #db00ff;
+  --color-accent: #ff0070;
+}
+
+.theme_dark .rec {
+  visibility: visible;
+}

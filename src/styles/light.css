@@ -1,0 +1,34 @@
+/*
+  Специально для светлой темы при наличии класса.
+  Здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
+.page.theme_light {
+  --bg-image: url(../images/cover-image-light.png);
+
+  --color-bg: #fff1f7;
+  --color-text: #353430;
+  --color-text-title: #ffc2e6;
+  --color-accent: #ff8dcb;
+}
+
+.theme_light .rec {
+  visibility: hidden;
+}
+
+@media (prefers-color-scheme: light) {
+
+  .page {
+    --bg-image: url(../images/cover-image-light.png);
+
+    --color-bg: #fff1f7;
+    --color-text: #353430;
+    --color-text-title: #ffc2e6;
+    --color-accent: #ff8dcb;
+  }
+
+  .rec {
+    visibility: hidden;
+  }
+}
