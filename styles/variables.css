@@ -1,8 +1,3 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
-
 :root {
   --main-font: 'IBM Plex mono';
   --bg-image: url(../images/cover-image-dark.png);
@@ -11,7 +6,7 @@
   --color-text: #f1b2ce;
   --color-text-title: #db00ff;
   --color-accent: #ff0070;
-  --color-ttitle-shadow-1024: #ff0070;
+  --color-title-shadow-desktop: #ff0070;
 
   --font-size: 18px;
   --font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);

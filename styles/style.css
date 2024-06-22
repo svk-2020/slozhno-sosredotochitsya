@@ -240,13 +240,11 @@
 
   .grid__title-left {
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 20px;
+    column-gap: var(--gap-text-block);
   }
 
-  .text-block__grid-tl {
+  .text-block__title-left {
     grid-column: 2/-1;
-    /*row-gap: 0px;*/
-    /*column-gap: 10px;*/
   }
 
   .grid__title-left .section__title {
@@ -257,12 +255,13 @@
     width: min-content;
   }
 
-  .grid__title-left-advices {
+  .grid__advices {
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 40px;
+    /* для лучшего соответствия макету */
+    column-gap: 35px;
   }
 
-  .grid__title-left-advices .section__title {
+  .grid__advices .section__title {
     grid-row: 1/3;
   }
 
@@ -298,11 +297,11 @@
 @media (min-width: 1024px) {
 
   .header__title {
-    text-shadow: 4px 4px var(--color-ttitle-shadow-1024);
+    text-shadow: 4px 4px var(--color-title-shadow-desktop);
   }
 
   .footer__title {
-    text-shadow: 2px 2px var(--color-ttitle-shadow-1024);
+    text-shadow: 2px 2px var(--color-title-shadow-desktop);
   }
 
   .header__theme-menu {
