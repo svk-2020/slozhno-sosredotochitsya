@@ -4,11 +4,16 @@
   --color-bg: #fff1f7;
   --color-text: #353430;
   --color-text-title: #ffc2e6;
-  --color-accent: #ff8dcb;
-}
+  --color-text-accent: #353430;
+  --color-text-decor: #353430;
+  --color-bg-decor: #ff8dcb;
+  --color-item-decor: #353430;
+  --color-button: #353430;
+  --color-button-hover: rgb(50 49 45 / 0.4);
+  --color-shadow: #ff8dcb;
+  --color-title-shadow-desktop: #ff0070;
 
-.theme_light .rec {
-  visibility: hidden;
+  --rec-visibility: hidden;
 }
 
 @media (prefers-color-scheme: light) {
@@ -19,10 +24,15 @@
     --color-bg: #fff1f7;
     --color-text: #353430;
     --color-text-title: #ffc2e6;
-    --color-accent: #ff8dcb;
-  }
+    --color-text-accent: #353430;
+    --color-text-decor: #353430;
+    --color-bg-decor: #ff8dcb;
+    --color-item-decor: #353430;
+    --color-button: #353430;
+    --color-button-hover: rgb(50 49 45 / 0.4);
+    --color-shadow: #ff8dcb;
+    --color-title-shadow-desktop: #ff0070;
 
-  .rec {
-    visibility: hidden;
+    --rec-visibility: hidden;
   }
 }
