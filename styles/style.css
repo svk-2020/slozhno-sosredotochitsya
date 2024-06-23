@@ -253,9 +253,8 @@
   }
 
   .section_one-column {
-    grid-template-columns: repeat(3, 1fr);
-    /*column-gap: var(--gap-text-block);*/
-    column-gap: 30px;
+    grid-template-columns: 1fr 2fr;
+    column-gap: var(--gap-text-block);
     row-gap: 0;
   }
 
