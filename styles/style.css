@@ -271,7 +271,6 @@
   }
 
   .section__advices {
-    column-gap: var(--gap-text-block);
     grid-column: 2/-1;
   }
 
