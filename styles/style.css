@@ -324,6 +324,10 @@
     grid-auto-flow: column;
   }
 
+  .section_one-column {
+    column-gap: 10px;
+  }
+
   .section_many-column {
     grid-template-columns: repeat(3, 1fr);
   }
